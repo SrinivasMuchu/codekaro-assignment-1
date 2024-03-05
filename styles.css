@@ -16,8 +16,10 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     height: 80vh;
+    border-radius: 10px;
+    
     background: #00F0A8;
 }
 .head{
@@ -26,11 +28,13 @@ h5 {
 .first-cont {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     text-align: left;
     gap: 10px;
+    padding: 24px;
 }
 
 .first-cont button {
@@ -56,7 +60,7 @@ h5 {
 
 .fourth-img {
     height: 100vh;
-    margin: 10px;
+    margin-top: 20px;
 }
 
 .second-cont,
@@ -110,6 +114,7 @@ h5 {
     padding: 20px;
     color: blue;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .bg-img {
@@ -153,6 +158,10 @@ h5 {
     align-items: center;
     justify-content: center;
     gap: 15px;
+    border-top: 1.5px solid grey;
+    width: 85%;
+    padding-top: 50px;
+    text-align: center;
 }
 
 .password {
@@ -194,6 +203,7 @@ h5 {
     padding: 10px 16px;
     border-radius: 30px;
     border: none;
+    cursor: pointer;
 }
 .underline{
     color: black;
@@ -211,6 +221,6 @@ h5 {
     cursor: pointer;
 }
 .logo{
-    width: 300px;
-    height: 100px;
+    width: 150px;
+    height: 35px;
 }
